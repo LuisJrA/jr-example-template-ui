@@ -61,19 +61,16 @@
       "_index.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.DAqBrqqB.css"
+      "_app/immutable/assets/_layout.BNDQ7M_E.css"
     ]
   },
   "src/routes/+page.svelte": {
     "file": "entries/pages/_page.svelte.js",
     "name": "entries/pages/_page.svelte",
     "src": "src/routes/+page.svelte",
-    "isEntry": true
-  },
-  "src/routes/about/+page.svelte": {
-    "file": "entries/pages/about/_page.svelte.js",
-    "name": "entries/pages/about/_page.svelte",
-    "src": "src/routes/about/+page.svelte",
-    "isEntry": true
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
   }
 }
